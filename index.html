@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Divisibility Test by Aparna</title>
+    <link href="main.css" rel="stylesheet"/>
+</head>
+<body ng-app ="testApp" ng-controller="testController">
+<h1 class="heading">Divisibility Test</h1>
+<form ng-submit="submit()" class="input_form">
+    <div>
+        <label>Input:</label>
+        <input type="number" id="num" placeholder="Enter a number" ng-model="input"/>
+        <br>
+        <input type="submit" id="submit" value="Submit" />
+        <div>
+        <label>Output:{{output}}</label>
+        </div>
+    </div>
+    <!--<label ng-model="output">Output:{{$scope.output}}</label>-->
+</form>
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.5/angular-route.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

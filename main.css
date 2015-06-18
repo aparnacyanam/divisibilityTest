@@ -1,0 +1,26 @@
+.heading{
+    text-align: center;
+}
+
+.input_form{
+    font-size: x-large;
+    font-style: normal;
+    background-color: aliceblue;
+    border: 5px solid blue;
+    margin: 0 30% 0 30%;
+    padding:3%;
+}
+
+#submit{
+    padding:0.2%;
+    margin:1%;
+
+}
+input,label{
+    font-size: x-large;
+    font-style: normal;
+}
+div{
+    margin:2%;
+    padding:2%;
+}
